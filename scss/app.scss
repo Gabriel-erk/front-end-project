@@ -1,0 +1,11 @@
+// chamarei este arquivo em todas as páginas do meu projeto
+
+// importa minhas váriaveis primeiro
+@import "variables";
+// as regras de tipografia
+@import "typography";
+// configurações da navbar e rodapé
+@import "navbar-footer";
+
+// depois importa o Bootstrap (SCSS do Bootstrap)
+@import "node_modules/bootstrap/scss/bootstrap";
