@@ -96,6 +96,15 @@ a {
     width: 2vw;
   }
 }
+@media (min-width: 1025px) {
+  #img-produto-cardapio {
+    display: flex;
+    justify-content: center;
+  }
+  #img-produto-cardapio img {
+    max-width: 50vw;
+  }
+}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
