@@ -105,9 +105,14 @@ a {
     max-width: 50vw;
   }
 }
+.cupom {
+  height: 13vh;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 .icone-desconto {
   width: 20vw;
-  height: 10vh;
+  height: auto;
 }
 
 .info-cupom {
@@ -115,12 +120,15 @@ a {
 }
 
 @media (min-width: 1025px) {
+  .cupom {
+    height: 22vh;
+  }
   .info-cupom {
     width: 100vw;
   }
   .icone-desconto {
     width: 10vw;
-    height: 18vh;
+    height: auto;
   }
 }
 /*!
