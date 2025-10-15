@@ -119,6 +119,10 @@ a {
   width: 70%;
 }
 
+.texto-inferior a {
+  color: var(--dark);
+}
+
 @media (min-width: 1025px) {
   .cupom {
     height: 22vh;
