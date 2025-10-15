@@ -110,6 +110,19 @@ a {
   height: 10vh;
 }
 
+.info-cupom {
+  width: 70%;
+}
+
+@media (min-width: 1025px) {
+  .info-cupom {
+    width: 100vw;
+  }
+  .icone-desconto {
+    width: 10vw;
+    height: 18vh;
+  }
+}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
