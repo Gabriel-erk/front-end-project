@@ -135,6 +135,14 @@ a {
     height: auto;
   }
 }
+@media (min-width: 1025px) {
+  .apresentacao-sobre-nos {
+    width: 50vw;
+  }
+  .img-sec-um-sobre-nos {
+    width: 50vw;
+  }
+}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
