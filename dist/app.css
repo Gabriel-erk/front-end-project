@@ -143,6 +143,15 @@ a {
     width: 50vw;
   }
 }
+.img-sec-dois-sobre-nos {
+  width: 40vw;
+  height: 100%;
+}
+
+.metricas-restaurante {
+  width: 60vw;
+}
+
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
