@@ -135,14 +135,6 @@ a {
     height: auto;
   }
 }
-@media (min-width: 1025px) {
-  .apresentacao-sobre-nos {
-    width: 50vw;
-  }
-  .img-sec-um-sobre-nos {
-    width: 50vw;
-  }
-}
 .img-sec-dois-sobre-nos {
   width: 40vw;
   height: 100%;
@@ -152,6 +144,27 @@ a {
   width: 60vw;
 }
 
+@media (min-width: 1025px) {
+  .apresentacao-sobre-nos {
+    width: 50vw;
+  }
+  .img-sec-um-sobre-nos {
+    width: 40vw;
+  }
+  #imagem-metricas-sec-dois-sobre-nos {
+    height: 60vh;
+  }
+  .img-sec-dois-sobre-nos {
+    width: 50vw;
+    height: 100%;
+  }
+  .metricas-restaurante {
+    width: 50vw;
+  }
+  .metrica-sec-dois-sobre-nos {
+    height: 100%;
+  }
+}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
