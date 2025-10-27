@@ -165,6 +165,28 @@ a {
     height: 100%;
   }
 }
+.favorito {
+  height: 13vh;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icone-desconto {
+  width: 20vw;
+  height: auto;
+}
+
+@media (min-width: 1025px) {
+  .favorito {
+    height: 22vh;
+  }
+  .info-cupom {
+    width: 100vw;
+  }
+  .icone-desconto {
+    width: 10vw;
+    height: auto;
+  }
+}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
