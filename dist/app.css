@@ -170,8 +170,13 @@ a {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.icone-desconto {
+.img-favorito img {
   width: 20vw;
+  height: auto;
+}
+
+.texto-inferior-favorito img {
+  width: 6vw;
   height: auto;
 }
 
