@@ -1,10 +1,6 @@
 .meu-pedido {
-  height: 15vh;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.info-meu-pedido {
   height: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .img-meu-pedido img {
@@ -13,14 +9,13 @@
 }
 
 #nome-data-meu-pedido span {
-    font-size: .8rem;
+    font-size: .7rem;
 } 
 
 .texto-inferior-meu-pedido img {
   width: 6vw;
   height: auto;
 }
-
 
 // colocando aqui ao invés do bootstrap para facilitar o controle e sobrescrever essa regra em telas maiores depois
 // .info-cupom {
