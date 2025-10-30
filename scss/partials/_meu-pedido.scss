@@ -1,0 +1,44 @@
+.meu-pedido {
+  height: 15vh;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.info-meu-pedido {
+  height: auto;
+}
+
+.img-meu-pedido img {
+  width: 20vw;
+  height: auto;
+}
+
+#nome-data-meu-pedido span {
+    font-size: .8rem;
+} 
+
+.texto-inferior-meu-pedido img {
+  width: 6vw;
+  height: auto;
+}
+
+
+// colocando aqui ao invés do bootstrap para facilitar o controle e sobrescrever essa regra em telas maiores depois
+// .info-cupom {
+//   width: 70%;
+// }
+
+@media (min-width: 1025px) {
+  .meu-pedido {
+    height: auto;
+  }
+
+  .img-meu-pedido img {
+    width: 15vw;
+    height: auto;
+  }
+
+  .avaliacao-meu-pedido img {
+    width: 1.9vw;
+  }
+
+}

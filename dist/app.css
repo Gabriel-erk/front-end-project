@@ -192,6 +192,41 @@ a {
     width: 1.9vw;
   }
 }
+.meu-pedido {
+  height: 15vh;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.info-meu-pedido {
+  height: auto;
+}
+
+.img-meu-pedido img {
+  width: 20vw;
+  height: auto;
+}
+
+#nome-data-meu-pedido span {
+  font-size: 0.8rem;
+}
+
+.texto-inferior-meu-pedido img {
+  width: 6vw;
+  height: auto;
+}
+
+@media (min-width: 1025px) {
+  .meu-pedido {
+    height: auto;
+  }
+  .img-meu-pedido img {
+    width: 15vw;
+    height: auto;
+  }
+  .avaliacao-meu-pedido img {
+    width: 1.9vw;
+  }
+}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
