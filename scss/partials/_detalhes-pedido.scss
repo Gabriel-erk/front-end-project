@@ -1,0 +1,19 @@
+.linha-vertical {
+  position: relative;
+  gap: 150px; /* distância entre os ícones */
+}
+
+.linha-vertical i:first-child {
+  margin-bottom: 20px;
+}
+
+.linha-vertical::before {
+  content: "";
+  position: absolute;
+  top: 20px; /* começa abaixo do ícone de cima */
+  bottom: 20px; /* termina acima do ícone de baixo */
+  left: 50%;
+  width: 3px;
+  transform: translateX(-50%);
+  border-left: 3px dashed #8c6342;
+}

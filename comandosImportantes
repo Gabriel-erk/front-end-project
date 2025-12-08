@@ -1,0 +1,2 @@
+monitorar alterações do scss ao vivo
+npx sass --watch scss/app.scss dist/app.css

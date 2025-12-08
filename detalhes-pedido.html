@@ -124,11 +124,40 @@
             <div class="container-fluid p-0 p-lg-4">
 
                 <!-- d-inline-block pois quero que o h2 tenha a largura do seu conteúdo -->
-                <h3 class="mb-1 bg-secondary fw-bold px-4 py-3 rounded-pill d-inline-block">Pedido #12345</h3>
+                <h4 class="mb-1 bg-secondary fw-bold px-4 py-3 rounded-pill d-inline-block">Pedido #12345</h4>
                 <!-- d-block pois quero que o link tenha a largura do seu conteúdo -->
                 <a href="#" class="text-dark d-block">Receba ajuda com esse pedido</a>
                 <!-- d-block pois quero que o span tenha a largura do seu conteúdo -->
                 <span class="d-block">Feito em: <span class="fw-bold">15 de Maio, 2023, 20:30 PM</span></span>
+
+                <!-- manipulado com scss com ajuda do gepeto -->
+                <div class="rota-de-entrega mt-3 d-flex gap-3">
+
+                    <div class="linha-vertical d-flex flex-column align-items-center">
+                        <i class="fa-solid fa-location-dot fs-3" style="color: #8c6342;"></i>
+                        <i class="fa-solid fa-location-dot fs-3" style="color: #8c6342;"></i>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="m-0 p-0 fw-light">Feito de</h5>
+                            <span class="fw-bold">Ilha das Canárias Tajmahal</span>
+                        </div>
+
+                        <div>
+                            <h5 class="m-0 p-0 fw-light">Endereço de entrega</h5>
+                            <span class="fw-bold">Ilha das Canárias Tajmahal</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <div class="rota-de-entrega bg-secondary p-3 p-lg-4 rounded-3 mt-3">
+                    <h5 class="fw-bold m-0 p-0">Rota de entrega</h5>
+                    <p class="m-0 p-0">Entrega em: <span class="fw-bold">Rua das Flores, 123 - Centro, São Paulo -
+                            SP</span></p>
+                    <p class="m-0 p-0">Entregue por: <span class="fw-bold">Carlos Silva</span></p>
+                </div> -->
 
                 <div class="detalhes-pedido-info bg-secondary p-3 p-lg-4 rounded-3 d-flex flex-column gap-5 mt-4">
 
@@ -166,7 +195,8 @@
                     </div>
                 </div>
 
-                <div class="forma-pagamento bg-secondary p-3 p-lg-4 rounded-3 mt-3 d-flex gap-3 align-items-center justify-content-between">
+                <div
+                    class="forma-pagamento bg-secondary p-3 p-lg-4 rounded-3 mt-3 d-flex gap-3 align-items-center justify-content-between">
                     <h5 class="fw-bold m-0 p-0">Pago com:</h5>
                     <div class="icone-forma-pagamento d-flex align-items-center gap-2">
                         <i class="fa-solid fa-money-bill-1 fs-4"></i>
