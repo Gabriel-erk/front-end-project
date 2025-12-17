@@ -237,6 +237,12 @@ a {
   border-left: 3px dashed #8c6342;
 }
 
+.img-usuario-informacoes-pessoais {
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+}
+
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
