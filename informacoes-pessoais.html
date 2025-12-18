@@ -120,7 +120,7 @@
         </nav>
     </header>
 
-    <main class="p-3">
+    <main class="p-3 p-lg-5">
         <h2 class="m-0 fw-bold">Informações Pessoais</h2>
         <p>Gerencie suas preferências, segurança e ferramentas conectadas em um único lugar.</p>
 
@@ -143,7 +143,7 @@
                                 mesmo ele estando oculto (hidden). -->
                                 <div id="agrupa-botao-submit-icone" class="d-flex gap-1">
                                     <input class="form-control" type="file" id="subirImagemButton" hidden>
-                                    <label for="subirImagemButton" class="btn btn-secondary p-2">Upload An Image</label>    
+                                    <label for="subirImagemButton" class="btn btn-secondary p-2">Upload An Image</label>
                                     <button class="border-0 bg-transparent" type="button">
                                         <i class="fa-solid fa-trash-can" style="color: #8c6342;"></i>
                                     </button>
@@ -151,41 +151,53 @@
                             </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="nome-usuario" class="form-label">Primeiro nome<strong
-                                    style="color: #EA4335;">*</strong></label>
-                            <input type="text" class="form-control" id="nome-usuario" name="nome-usuario">
+                        <div class="row">
+
+                            <div class="mb-3 col-lg-6">
+                                <label for="nome-usuario" class="form-label">Primeiro nome<strong
+                                        style="color: #EA4335;">*</strong></label>
+                                <input type="text" class="form-control" id="nome-usuario" name="nome-usuario">
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <label for="sobrenome-usuario" class="form-label">Último nome<strong
+                                        style="color: #EA4335;">*</strong></label>
+                                <input type="text" class="form-control" id="sobrenome-usuario" name="sobrenome-usuario">
+                            </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="sobrenome-usuario" class="form-label">Último nome<strong
-                                    style="color: #EA4335;">*</strong></label>
-                            <input type="text" class="form-control" id="sobrenome-usuario" name="sobrenome-usuario">
+                        <div class="row">
+
+                            <div class="mb-3 col-lg-6">
+                                <label for="email-usuario" class="form-label">Email<strong
+                                        style="color: #EA4335;">*</strong></label>
+                                <input type="email" class="form-control" id="email-usuario" name="email-usuario">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <label for="telefone-usuario" class="form-label">Número de telefone<strong
+                                        style="color: #EA4335;">*</strong></label>
+                                <input type="text" class="form-control" id="telefone-usuario" name="telefone-usuario">
+                            </div>
+
+
                         </div>
 
-                        <div class="mb-3">
-                            <label for="telefone-usuario" class="form-label">Número de telefone<strong
-                                    style="color: #EA4335;">*</strong></label>
-                            <input type="text" class="form-control" id="telefone-usuario" name="telefone-usuario">
-                        </div>
+                        <div class="row">
 
-                        <div class="mb-3">
-                            <label for="email-usuario" class="form-label">Email<strong
-                                    style="color: #EA4335;">*</strong></label>
-                            <input type="email" class="form-control" id="email-usuario" name="email-usuario">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
+                            <div class="mb-3 col-lg-6">
+                                <label for="senha-usuario" class="form-label">Nova senha<strong
+                                        style="color: #EA4335;">*</strong></label>
+                                <input type="password" class="form-control" id="senha-usuario" name="senha-usuario">
+                            </div>
 
-                        <div class="mb-3">
-                            <label for="senha-usuario" class="form-label">Nova senha<strong
-                                    style="color: #EA4335;">*</strong></label>
-                            <input type="password" class="form-control" id="senha-usuario" name="senha-usuario">
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="confirmar-senha" class="form-label">Confirmar nova senha<strong
-                                    style="color: #EA4335;">*</strong></label>
-                            <input type="password" class="form-control" id="confirmar-senha" name="confirmar-senha">
+                            <div class="mb-3 col-lg-6">
+                                <label for="confirmar-senha" class="form-label">Confirmar nova senha<strong
+                                        style="color: #EA4335;">*</strong></label>
+                                <input type="password" class="form-control" id="confirmar-senha" name="confirmar-senha">
+                            </div>
                         </div>
 
                     </div>
@@ -194,31 +206,40 @@
                         <h3 class="m-0">Endereço de entrega</h3>
                         <p>Gerencie suas preferências de entrega para te entregarmos uma melhor experiência.</p>
 
-                        <div class="mb-3">
-                            <label for="logradouro-usuario" class="form-label">Logradouro<strong
-                                    style="color: #EA4335;">*</strong></label>
-                            <input type="text" class="form-control" id="logradouro-usuario" name="logradouro-usuario">
-                            <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+
+                        <div class="row">
+                            <div class="mb-3 col-lg-6">
+                                <label for="logradouro-usuario" class="form-label">Logradouro<strong
+                                        style="color: #EA4335;">*</strong></label>
+                                <input type="text" class="form-control" id="logradouro-usuario"
+                                    name="logradouro-usuario">
+                                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <label for="bairro-usuario" class="form-label">Bairro<strong
+                                        style="color: #EA4335;">*</strong></label>
+                                <input type="text" class="form-control" id="bairro-usuario" name="bairro-usuario">
+                            </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="bairro-usuario" class="form-label">Bairro<strong
-                                    style="color: #EA4335;">*</strong></label>
-                            <input type="text" class="form-control" id="bairro-usuario" name="bairro-usuario">
-                        </div>
 
-                        <div class="mb-3">
-                            <label for="numero-logradouro-usuario" class="form-label">Número<strong
-                                    style="color: #EA4335;">*</strong></label>
-                            <input type="text" class="form-control" id="numero-logradouro-usuario"
-                                name="numero-logradouro-usuario">
-                        </div>
+                        <div class="row">
 
-                        <div class="mb-3">
-                            <label for="complemento-logradouro-usuario" class="form-label">Complemento<strong
-                                    style="color: #EA4335;">*</strong></label>
-                            <input type="text" class="form-control" id="complemento-logradouro-usuario"
-                                name="complemento-logradouro-usuario">
+                            <div class="mb-3 col-lg-6">
+                                <label for="numero-logradouro-usuario" class="form-label">Número<strong
+                                        style="color: #EA4335;">*</strong></label>
+                                <input type="text" class="form-control" id="numero-logradouro-usuario"
+                                    name="numero-logradouro-usuario">
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <label for="complemento-logradouro-usuario" class="form-label">Complemento<strong
+                                        style="color: #EA4335;">*</strong></label>
+                                <input type="text" class="form-control" id="complemento-logradouro-usuario"
+                                    name="complemento-logradouro-usuario">
+                            </div>
+
                         </div>
 
                         <div class="mb-3">
