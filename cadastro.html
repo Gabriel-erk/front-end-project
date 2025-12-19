@@ -119,7 +119,7 @@
             </div>
         </nav>
     </header>
-    
+
     <main>
         <div class="p-3 d-lg-flex justify-content-between">
 
@@ -128,31 +128,54 @@
                     alt="Imagem do restaurante Mr.Burger">
             </div>
 
-            <div class="lado-esquerdo">
+            <div class="lado-esquerdo me-lg-3">
                 <div class="titulos mt-4">
                     <h3 class="fw-bold">Criando sua conta!</h3>
                     <p>Um ótimo dia começa por aqui. Um dia de novas vitórias.
                         Registre-se e comece a comprar.</p>
                 </div>
 
-                <form class="row g-3">
-                    <!-- {{-- p-0 para remover o pequeno espaçamento que estava tendo e desalinhando com os botões --}} -->
-                    <div class="col-12">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                <form class="mt-4 d-flex flex-column gap-3" method="" action="">
+                    <div class="row g-2">
+                        <div class="col-lg-6">
+                            <label for="nome-usuario" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome-usuario">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <label for="sobrenome-usuario" class="form-label">Sobrenome</label>
+                            <input type="text" class="form-control" id="sobrenome-usuario">
+                        </div>
                     </div>
 
-                    <div class="col-12">
-                        <label for="inputPassword4" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="inputPassword4">
+                    <div class="row g-2">
+
+                        <!-- {{-- p-0 para remover o pequeno espaçamento que estava tendo e desalinhando com os botões --}} -->
+                        <div class="col-lg-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <label for="telefone-usuario" class="form-label">Número de Telefone</label>
+                            <input type="tel" class="form-control" id="telefone-usuario">
+                        </div>
                     </div>
 
-                    <div class="col-12">
-                        <label for="inputConfirmPassword4" class="form-label">Confirmar a senha</label>
-                        <input type="password" class="form-control" id="inputConfirmPassword4">
+                    <div class="row g-2">
+
+                        <div class="col-lg-6">
+                            <label for="inputPassword4" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <label for="inputConfirmPassword4" class="form-label">Confirmar a senha</label>
+                            <input type="password" class="form-control" id="inputConfirmPassword4">
+                        </div>
                     </div>
 
-                    <div class="col-12 mt-4">
+                    <div class="mt-4">
                         <button type="submit" class="btn btn-primary w-100">Registrar</button>
                     </div>
                 </form>
