@@ -1,7 +1,47 @@
+@font-face {
+  font-family: "Poppins";
+url("../../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+url("../../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+url("../../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cabin";
+url("../../fonts/Cabin/Cabin-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cabin";
+url("../../fonts/Cabin/Cabin-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 // fonte principal para títulos (alterando váriavel bootstrap)
 $headings-font-family: "Poppins", sans-serif;
 // fonte para os textos menores (alterando váriavel bootstrap)
-$body-font-family: "Cabin", sans-serif; 
+$body-font-family: "Cabin", sans-serif;
 
 // fonte dos títulos
 h1,
@@ -10,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $headings-font-family;
+  font-family: $headings-font-family;
 }
 
 // fonte dos textos menores
@@ -20,7 +60,7 @@ span,
 small,
 button,
 form {
-    font-family: $body-font-family;
+  font-family: $body-font-family;
 }
 
 // escala modular, atingindo mobile até desktop
@@ -34,33 +74,33 @@ $button-font-size: clamp(1rem, 2vw + 1rem, 1.225rem) !default;
 // aplicando escala tipografica em títulos e textos menores
 
 h1 {
-    font-size: $h1-font-size;
-    font-weight: 700;
+  font-size: $h1-font-size;
+  font-weight: 700;
 }
 
 h2 {
-    font-size: $h2-font-size;
-    font-weight: 600;
+  font-size: $h2-font-size;
+  font-weight: 600;
 }
 
 h3 {
-    font-size: $h3-font-size;
-    font-weight: 500;
+  font-size: $h3-font-size;
+  font-weight: 500;
 }
 
 p {
-    font-size: $body-font-size;
-    font-weight: 400;
+  font-size: $body-font-size;
+  font-weight: 400;
 }
 
 small,
 span {
-    font-size: $small-font-size;
-    font-weight: 300;
+  font-size: $small-font-size;
+  font-weight: 400;
 }
 
 button,
 a {
-    font-size: $button-font-size;
-    font-weight: 500;
+  font-size: $button-font-size;
+  font-weight: 500;
 }
